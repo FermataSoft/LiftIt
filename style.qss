@@ -1,0 +1,81 @@
+/* Подбор цвета */
+searchColor {
+    color: rgb(255, 112, 87);
+}
+
+
+QMainWindow {
+    background-color: rgb(230, 230, 230);
+}
+
+QStatusBar {
+    color: rgb(255, 0, 0);
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+QLineEdit {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: rgb(148, 148, 148);
+    border-width: 1.2px;
+    border-style: solid;
+}
+
+#frame, #frame_2, #frame_3 {
+    background-color: rgb(211, 211, 211);
+    border-radius: 6px;
+    border-color: rgb(148, 148, 148);
+    border-width: 1px;
+    border-style: solid;
+}
+
+QLabel {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: normal;
+    color: rgb(12, 12, 12);
+    font-size: 9pt;
+}
+
+QRadioButton {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: normal;
+    color: rgb(12, 12, 12);
+    font-size: 9pt;
+}
+
+#label_count_of_slings, #label_data_input, #label_calc_rezult {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    font-size: 9pt;
+}
+
+#btn_more {
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(148, 148, 148);
+    background-color: rgb(230, 230, 230);
+    height: 25px;
+}
+
+#label_SN_title,
+#label_SN,
+#label_copyright,
+#label_version,
+#label_description,
+#label_contacts,
+#label_email,
+#label_notes,
+#label_notes_p1,
+#label_notes_p2,
+#label_disclaimer {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 8pt;
+}
+
+#about__label_title {
+    font-weight: bold;
+    font-size: 10pt;
+}

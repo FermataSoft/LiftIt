@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>850</width>
+                <height>700</height>
+            </rect>
+        </property>
+        <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+            </sizepolicy>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>850</width>
+                <height>700</height>
+            </size>
+        </property>
+        <property name="maximumSize">
+            <size>
+                <width>850</width>
+                <height>700</height>
+            </size>
+        </property>
+        <property name="windowTitle">
+            <string>Застропи ЭТО Ver. 0.6 © 2022 Oleg Andreev</string>
+        </property>
+        <property name="toolTip">
+            <string/>
+        </property>
+        <property name="autoFillBackground">
+            <bool>false</bool>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="maximumSize">
+                <size>
+                    <width>850</width>
+                    <height>700</height>
+                </size>
+            </property>
+            <property name="sizeIncrement">
+                <size>
+                    <width>2</width>
+                    <height>0</height>
+                </size>
+            </property>
+            <widget class="QWidget" name="horizontalLayoutWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>851</width>
+                        <height>661</height>
+                    </rect>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout">
+                    <property name="spacing">
+                        <number>10</number>
+                    </property>
+                    <property name="leftMargin">
+                        <number>20</number>
+                    </property>
+                    <property name="topMargin">
+                        <number>10</number>
+                    </property>
+                    <property name="rightMargin">
+                        <number>20</number>
+                    </property>
+                    <property name="bottomMargin">
+                        <number>10</number>
+                    </property>
+                    <item>
+                        <layout class="QVBoxLayout" name="verticalLayout_2">
+                            <property name="spacing">
+                                <number>10</number>
+                            </property>
+                            <property name="sizeConstraint">
+                                <enum>QLayout::SetMinimumSize</enum>
+                            </property>
+                            <item>
+                                <widget class="QFrame" name="frame">
+                                    <property name="sizePolicy">
+                                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>16777215</width>
+                                            <height>115</height>
+                                        </size>
+                                    </property>
+                                    <property name="frameShape">
+                                        <enum>QFrame::StyledPanel</enum>
+                                    </property>
+                                    <property name="frameShadow">
+                                        <enum>QFrame::Raised</enum>
+                                    </property>
+                                    <widget class="QWidget" name="verticalLayoutWidget">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>10</x>
+                                                <y>38</y>
+                                                <width>251</width>
+                                                <height>71</height>
+                                            </rect>
+                                        </property>
+                                        <layout class="QVBoxLayout" name="verticalLayout_3">
+                                            <property name="spacing">
+                                                <number>5</number>
+                                            </property>
+                                            <item>
+                                                <widget class="QRadioButton" name="radio_2Points">
+                                                    <property name="font">
+                                                        <font>
+                                                            <family>Calibri</family>
+                                                            <pointsize>10</pointsize>
+                                                        </font>
+                                                    </property>
+                                                    <property name="toolTip">
+                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Коэффициент
+                                                            неравномерности натяжения ветвей строп - 1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                                                        </string>
+                                                    </property>
+                                                    <property name="styleSheet">
+                                                        <string notr="true"/>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>2 ветви</string>
+                                                    </property>
+                                                    <property name="checked">
+                                                        <bool>true</bool>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item>
+                                                <widget class="QRadioButton" name="radio_3Points">
+                                                    <property name="font">
+                                                        <font>
+                                                            <family>Calibri</family>
+                                                            <pointsize>10</pointsize>
+                                                        </font>
+                                                    </property>
+                                                    <property name="toolTip">
+                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Коэффициент
+                                                            неравномерности натяжения ветвей строп - 1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                                                        </string>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>3 ветви</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item>
+                                                <widget class="QRadioButton" name="radio_4Points">
+                                                    <property name="font">
+                                                        <font>
+                                                            <family>Calibri</family>
+                                                            <pointsize>10</pointsize>
+                                                        </font>
+                                                    </property>
+                                                    <property name="toolTip">
+                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Коэффициент
+                                                            неравномерности натяжения ветвей строп - 0,75&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                                                        </string>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>4 ветви</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                        </layout>
+                                    </widget>
+                                    <widget class="QLabel" name="label_count_of_slings">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>10</x>
+                                                <y>10</y>
+                                                <width>251</width>
+                                                <height>16</height>
+                                            </rect>
+                                        </property>
+                                        <property name="font">
+                                            <font>
+                                                <family>Calibri</family>
+                                                <pointsize>11</pointsize>
+                                                <weight>75</weight>
+                                                <bold>true</bold>
+                                                <kerning>false</kerning>
+                                            </font>
+                                        </property>
+                                        <property name="text">
+                                            <string>Выберите количество ветвей строп:</string>
+                                        </property>
+                                    </widget>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QFrame" name="frame_3">
+                                    <property name="sizePolicy">
+                                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>16777215</width>
+                                            <height>310</height>
+                                        </size>
+                                    </property>
+                                    <property name="frameShape">
+                                        <enum>QFrame::StyledPanel</enum>
+                                    </property>
+                                    <property name="frameShadow">
+                                        <enum>QFrame::Raised</enum>
+                                    </property>
+                                    <widget class="QWidget" name="verticalLayoutWidget_2">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>10</x>
+                                                <y>38</y>
+                                                <width>236</width>
+                                                <height>269</height>
+                                            </rect>
+                                        </property>
+                                        <layout class="QVBoxLayout" name="verticalLayout_4">
+                                            <property name="spacing">
+                                                <number>8</number>
+                                            </property>
+                                            <property name="sizeConstraint">
+                                                <enum>QLayout::SetFixedSize</enum>
+                                            </property>
+                                            <property name="topMargin">
+                                                <number>0</number>
+                                            </property>
+                                            <item>
+                                                <widget class="QLabel" name="label_19">
+                                                    <property name="maximumSize">
+                                                        <size>
+                                                            <width>250</width>
+                                                            <height>16777215</height>
+                                                        </size>
+                                                    </property>
+                                                    <property name="font">
+                                                        <font>
+                                                            <family>Calibri</family>
+                                                            <pointsize>10</pointsize>
+                                                        </font>
+                                                    </property>
+                                                    <property name="styleSheet">
+                                                        <string notr="true">border-style: none;</string>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>Масса поднимаемого груза</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item>
+                                                <layout class="QHBoxLayout" name="horizontalLayout_7">
+                                                    <item>
+                                                        <widget class="QLineEdit" name="lineEdit_weight">
+                                                            <property name="enabled">
+                                                                <bool>true</bool>
+                                                            </property>
+                                                            <property name="sizePolicy">
+                                                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                                                    <horstretch>0</horstretch>
+                                                                    <verstretch>0</verstretch>
+                                                                </sizepolicy>
+                                                            </property>
+                                                            <property name="minimumSize">
+                                                                <size>
+                                                                    <width>85</width>
+                                                                    <height>22</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="maximumSize">
+                                                                <size>
+                                                                    <width>85</width>
+                                                                    <height>22</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="font">
+                                                                <font>
+                                                                    <family>Calibri</family>
+                                                                    <pointsize>10</pointsize>
+                                                                </font>
+                                                            </property>
+                                                            <property name="toolTip">
+                                                                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Введите
+                                                                    массу поднимаемого груза в кг&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                                                                </string>
+                                                            </property>
+                                                            <property name="styleSheet">
+                                                                <string notr="true">background-color: rgb(255, 255,
+                                                                    255);
+
+
+                                                                </string>
+                                                            </property>
+                                                            <property name="inputMethodHints">
+                                                                <set>Qt::ImhDigitsOnly</set>
+                                                            </property>
+                                                            <property name="text">
+                                                                <string/>
+                                                            </property>
+                                                            <property name="maxLength">
+                                                                <number>6</number>
+                                                            </property>
+                                                            <property name="alignment">
+                                                                <set>Qt::AlignCenter</set>
+                                                            </property>
+                                                            <property name="readOnly">
+                                                                <bool>false</bool>
+                                                            </property>
+                                                        </widget>
+                                                    </item>
+                                                    <item>
+                                                        <widget class="QLabel" name="label_20">
+                                                            <property name="sizePolicy">
+                                                                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                                                    <horstretch>0</horstretch>
+                                                                    <verstretch>0</verstretch>
+                                                                </sizepolicy>
+                                                            </property>
+                                                            <property name="maximumSize">
+                                                                <size>
+                                                                    <width>200</width>
+                                                                    <height>16777215</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="font">
+                                                                <font>
+                                                                    <family>Calibri</family>
+                                                                    <pointsize>10</pointsize>
+                                                                </font>
+                                                            </property>
+                                                            <property name="text">
+                                                                <string>кг</string>
+                                                            </property>
+                                                        </widget>
+                                                    </item>
+                                                </layout>
+                                            </item>
+                                            <item>
+                                                <widget class="QLabel" name="label_21">
+                                                    <property name="maximumSize">
+                                                        <size>
+                                                            <width>250</width>
+                                                            <height>16777215</height>
+                                                        </size>
+                                                    </property>
+                                                    <property name="font">
+                                                        <font>
+                                                            <family>Calibri</family>
+                                                            <pointsize>10</pointsize>
+                                                        </font>
+                                                    </property>
+                                                    <property name="styleSheet">
+                                                        <string notr="true">border-style: none;</string>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>Расстояние от груза до крюка (h)</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item>
+                                                <layout class="QHBoxLayout" name="horizontalLayout_10">
+                                                    <item>
+                                                        <widget class="QLineEdit" name="lineEdit_H">
+                                                            <property name="enabled">
+                                                                <bool>true</bool>
+                                                            </property>
+                                                            <property name="sizePolicy">
+                                                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                                                    <horstretch>0</horstretch>
+                                                                    <verstretch>0</verstretch>
+                                                                </sizepolicy>
+                                                            </property>
+                                                            <property name="minimumSize">
+                                                                <size>
+                                                                    <width>85</width>
+                                                                    <height>22</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="maximumSize">
+                                                                <size>
+                                                                    <width>85</width>
+                                                                    <height>22</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="font">
+                                                                <font>
+                                                                    <family>Calibri</family>
+                                                                    <pointsize>10</pointsize>
+                                                                </font>
+                                                            </property>
+                                                            <property name="toolTip">
+                                                                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Введите
+                                                                    расстояние между крюком крана и грузом в мм&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                                                                </string>
+                                                            </property>
+                                                            <property name="styleSheet">
+                                                                <string notr="true">background-color: rgb(255, 255,
+                                                                    255);
+
+
+                                                                </string>
+                                                            </property>
+                                                            <property name="inputMethodHints">
+                                                                <set>Qt::ImhDigitsOnly</set>
+                                                            </property>
+                                                            <property name="text">
+                                                                <string/>
+                                                            </property>
+                                                            <property name="maxLength">
+                                                                <number>6</number>
+                                                            </property>
+                                                            <property name="alignment">
+                                                                <set>Qt::AlignCenter</set>
+                                                            </property>
+                                                            <property name="readOnly">
+                                                                <bool>false</bool>
+                                                            </property>
+                                                        </widget>
+                                                    </item>
+                                                    <item>
+                                                        <widget class="QLabel" name="label_22">
+                                                            <property name="sizePolicy">
+                                                                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                                                    <horstretch>0</horstretch>
+                                                                    <verstretch>0</verstretch>
+                                                                </sizepolicy>
+                                                            </property>
+                                                            <property name="maximumSize">
+                                                                <size>
+                                                                    <width>200</width>
+                                                                    <height>16777215</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="font">
+                                                                <font>
+                                                                    <family>Calibri</family>
+                                                                    <pointsize>10</pointsize>
+                                                                </font>
+                                                            </property>
+                                                            <property name="text">
+                                                                <string>мм</string>
+                                                            </property>
+                                                        </widget>
+                                                    </item>
+                                                </layout>
+                                            </item>
+                                            <item>
+                                                <widget class="QLabel" name="label_2">
+                                                    <property name="maximumSize">
+                                                        <size>
+                                                            <width>250</width>
+                                                            <height>16777215</height>
+                                                        </size>
+                                                    </property>
+                                                    <property name="font">
+                                                        <font>
+                                                            <family>Calibri</family>
+                                                            <pointsize>10</pointsize>
+                                                        </font>
+                                                    </property>
+                                                    <property name="styleSheet">
+                                                        <string notr="true">border-style: none;</string>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>Расстояние между точками крепления (а)</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item>
+                                                <layout class="QHBoxLayout" name="horizontalLayout_3">
+                                                    <item>
+                                                        <widget class="QLineEdit" name="lineEdit_A">
+                                                            <property name="enabled">
+                                                                <bool>true</bool>
+                                                            </property>
+                                                            <property name="sizePolicy">
+                                                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                                                    <horstretch>0</horstretch>
+                                                                    <verstretch>0</verstretch>
+                                                                </sizepolicy>
+                                                            </property>
+                                                            <property name="minimumSize">
+                                                                <size>
+                                                                    <width>85</width>
+                                                                    <height>22</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="maximumSize">
+                                                                <size>
+                                                                    <width>85</width>
+                                                                    <height>22</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="font">
+                                                                <font>
+                                                                    <family>Calibri</family>
+                                                                    <pointsize>10</pointsize>
+                                                                </font>
+                                                            </property>
+                                                            <property name="toolTip">
+                                                                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Введите
+                                                                    расстояние между точками крепления в мм&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                                                                </string>
+                                                            </property>
+                                                            <property name="styleSheet">
+                                                                <string notr="true">background-color: rgb(255, 255,
+                                                                    255);
+
+
+                                                                </string>
+                                                            </property>
+                                                            <property name="inputMethodHints">
+                                                                <set>Qt::ImhDigitsOnly</set>
+                                                            </property>
+                                                            <property name="maxLength">
+                                                                <number>5</number>
+                                                            </property>
+                                                            <property name="alignment">
+                                                                <set>Qt::AlignCenter</set>
+                                                            </property>
+                                                            <property name="readOnly">
+                                                                <bool>false</bool>
+                                                            </property>
+                                                        </widget>
+                                                    </item>
+                                                    <item>
+                                                        <widget class="QLabel" name="label_4">
+                                                            <property name="sizePolicy">
+                                                                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                                                    <horstretch>0</horstretch>
+                                                                    <verstretch>0</verstretch>
+                                                                </sizepolicy>
+                                                            </property>
+                                                            <property name="maximumSize">
+                                                                <size>
+                                                                    <width>200</width>
+                                                                    <height>16777215</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="font">
+                                                                <font>
+                                                                    <family>Calibri</family>
+                                                                    <pointsize>10</pointsize>
+                                                                </font>
+                                                            </property>
+                                                            <property name="text">
+                                                                <string>мм</string>
+                                                            </property>
+                                                        </widget>
+                                                    </item>
+                                                </layout>
+                                            </item>
+                                            <item>
+                                                <widget class="QLabel" name="label_3">
+                                                    <property name="sizePolicy">
+                                                        <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                                                            <horstretch>0</horstretch>
+                                                            <verstretch>0</verstretch>
+                                                        </sizepolicy>
+                                                    </property>
+                                                    <property name="maximumSize">
+                                                        <size>
+                                                            <width>250</width>
+                                                            <height>16777215</height>
+                                                        </size>
+                                                    </property>
+                                                    <property name="font">
+                                                        <font>
+                                                            <family>Calibri</family>
+                                                            <pointsize>10</pointsize>
+                                                        </font>
+                                                    </property>
+                                                    <property name="styleSheet">
+                                                        <string notr="true">border-style: none;</string>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>Угол между ветвями стропов (w)</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item>
+                                                <layout class="QHBoxLayout" name="horizontalLayout_4">
+                                                    <item>
+                                                        <widget class="QLineEdit" name="lineEdit_W">
+                                                            <property name="sizePolicy">
+                                                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                                                    <horstretch>0</horstretch>
+                                                                    <verstretch>0</verstretch>
+                                                                </sizepolicy>
+                                                            </property>
+                                                            <property name="minimumSize">
+                                                                <size>
+                                                                    <width>85</width>
+                                                                    <height>22</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="maximumSize">
+                                                                <size>
+                                                                    <width>85</width>
+                                                                    <height>22</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="font">
+                                                                <font>
+                                                                    <family>Calibri</family>
+                                                                    <pointsize>10</pointsize>
+                                                                </font>
+                                                            </property>
+                                                            <property name="toolTip">
+                                                                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Введите
+                                                                    угол между ветвями стропов в градусах&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                                                                </string>
+                                                            </property>
+                                                            <property name="styleSheet">
+                                                                <string notr="true">background-color: rgb(255, 255,
+                                                                    255);
+
+
+                                                                </string>
+                                                            </property>
+                                                            <property name="inputMask">
+                                                                <string/>
+                                                            </property>
+                                                            <property name="maxLength">
+                                                                <number>3</number>
+                                                            </property>
+                                                            <property name="echoMode">
+                                                                <enum>QLineEdit::Normal</enum>
+                                                            </property>
+                                                            <property name="alignment">
+                                                                <set>Qt::AlignCenter</set>
+                                                            </property>
+                                                        </widget>
+                                                    </item>
+                                                    <item>
+                                                        <widget class="QLabel" name="label_5">
+                                                            <property name="sizePolicy">
+                                                                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                                                    <horstretch>0</horstretch>
+                                                                    <verstretch>0</verstretch>
+                                                                </sizepolicy>
+                                                            </property>
+                                                            <property name="maximumSize">
+                                                                <size>
+                                                                    <width>200</width>
+                                                                    <height>16777215</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="font">
+                                                                <font>
+                                                                    <family>Calibri</family>
+                                                                    <pointsize>10</pointsize>
+                                                                </font>
+                                                            </property>
+                                                            <property name="text">
+                                                                <string>°</string>
+                                                            </property>
+                                                        </widget>
+                                                    </item>
+                                                </layout>
+                                            </item>
+                                            <item>
+                                                <widget class="QLabel" name="label_9">
+                                                    <property name="sizePolicy">
+                                                        <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                                                            <horstretch>0</horstretch>
+                                                            <verstretch>0</verstretch>
+                                                        </sizepolicy>
+                                                    </property>
+                                                    <property name="maximumSize">
+                                                        <size>
+                                                            <width>250</width>
+                                                            <height>16777215</height>
+                                                        </size>
+                                                    </property>
+                                                    <property name="font">
+                                                        <font>
+                                                            <family>Calibri</family>
+                                                            <pointsize>10</pointsize>
+                                                        </font>
+                                                    </property>
+                                                    <property name="styleSheet">
+                                                        <string notr="true">border-style: none;</string>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>Длина ветви строп (с)</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item>
+                                                <layout class="QHBoxLayout" name="horizontalLayout_6">
+                                                    <item>
+                                                        <widget class="QLineEdit" name="lineEdit_C">
+                                                            <property name="sizePolicy">
+                                                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                                                    <horstretch>0</horstretch>
+                                                                    <verstretch>0</verstretch>
+                                                                </sizepolicy>
+                                                            </property>
+                                                            <property name="minimumSize">
+                                                                <size>
+                                                                    <width>85</width>
+                                                                    <height>22</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="maximumSize">
+                                                                <size>
+                                                                    <width>85</width>
+                                                                    <height>22</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="font">
+                                                                <font>
+                                                                    <family>Calibri</family>
+                                                                    <pointsize>10</pointsize>
+                                                                </font>
+                                                            </property>
+                                                            <property name="toolTip">
+                                                                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Введите
+                                                                    длину ветви стропа в мм&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                                                                </string>
+                                                            </property>
+                                                            <property name="styleSheet">
+                                                                <string notr="true">background-color: rgb(255, 255,
+                                                                    255);
+
+
+                                                                </string>
+                                                            </property>
+                                                            <property name="inputMask">
+                                                                <string/>
+                                                            </property>
+                                                            <property name="maxLength">
+                                                                <number>5</number>
+                                                            </property>
+                                                            <property name="echoMode">
+                                                                <enum>QLineEdit::Normal</enum>
+                                                            </property>
+                                                            <property name="alignment">
+                                                                <set>Qt::AlignCenter</set>
+                                                            </property>
+                                                        </widget>
+                                                    </item>
+                                                    <item>
+                                                        <widget class="QLabel" name="label_7">
+                                                            <property name="sizePolicy">
+                                                                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                                                    <horstretch>0</horstretch>
+                                                                    <verstretch>0</verstretch>
+                                                                </sizepolicy>
+                                                            </property>
+                                                            <property name="maximumSize">
+                                                                <size>
+                                                                    <width>200</width>
+                                                                    <height>16777215</height>
+                                                                </size>
+                                                            </property>
+                                                            <property name="font">
+                                                                <font>
+                                                                    <family>Calibri</family>
+                                                                    <pointsize>10</pointsize>
+                                                                </font>
+                                                            </property>
+                                                            <property name="text">
+                                                                <string>мм</string>
+                                                            </property>
+                                                        </widget>
+                                                    </item>
+                                                </layout>
+                                            </item>
+                                        </layout>
+                                    </widget>
+                                    <widget class="QLabel" name="label_data_input">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>10</x>
+                                                <y>10</y>
+                                                <width>251</width>
+                                                <height>16</height>
+                                            </rect>
+                                        </property>
+                                        <property name="font">
+                                            <font>
+                                                <family>Calibri</family>
+                                                <pointsize>11</pointsize>
+                                                <weight>75</weight>
+                                                <bold>true</bold>
+                                                <kerning>false</kerning>
+                                            </font>
+                                        </property>
+                                        <property name="text">
+                                            <string>Введите данные:</string>
+                                        </property>
+                                    </widget>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QFrame" name="frame_2">
+                                    <property name="sizePolicy">
+                                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>16777215</width>
+                                            <height>150</height>
+                                        </size>
+                                    </property>
+                                    <property name="frameShape">
+                                        <enum>QFrame::StyledPanel</enum>
+                                    </property>
+                                    <property name="frameShadow">
+                                        <enum>QFrame::Raised</enum>
+                                    </property>
+                                    <widget class="QWidget" name="gridLayoutWidget_2">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>10</x>
+                                                <y>40</y>
+                                                <width>251</width>
+                                                <height>93</height>
+                                            </rect>
+                                        </property>
+                                        <layout class="QGridLayout" name="gridLayout_2">
+                                            <property name="horizontalSpacing">
+                                                <number>16</number>
+                                            </property>
+                                            <item row="0" column="0">
+                                                <widget class="QLabel" name="label_11">
+                                                    <property name="font">
+                                                        <font>
+                                                            <family>Calibri</family>
+                                                            <pointsize>10</pointsize>
+                                                        </font>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>Усилие натяжения, H:</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item row="0" column="1">
+                                                <widget class="QLabel" name="label_tension">
+                                                    <property name="font">
+                                                        <font>
+                                                            <family>Calibri</family>
+                                                            <pointsize>10</pointsize>
+                                                        </font>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>-</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item row="1" column="0">
+                                                <widget class="QLabel" name="label_16">
+                                                    <property name="font">
+                                                        <font>
+                                                            <family>Calibri</family>
+                                                            <pointsize>10</pointsize>
+                                                        </font>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>Грузоподъемность (min), кг:</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item row="1" column="1">
+                                                <widget class="QLabel" name="label_gp">
+                                                    <property name="font">
+                                                        <font>
+                                                            <family>Calibri</family>
+                                                            <pointsize>10</pointsize>
+                                                        </font>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>-</string>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item row="3" column="0">
+                                                <widget class="QPushButton" name="btn_more">
+                                                    <property name="toolTip">
+                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Очистить
+                                                            все поля ввода&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                                                        </string>
+                                                    </property>
+                                                    <property name="text">
+                                                        <string>Очистить</string>
+                                                    </property>
+                                                    <property name="flat">
+                                                        <bool>false</bool>
+                                                    </property>
+                                                </widget>
+                                            </item>
+                                            <item row="2" column="0">
+                                                <spacer name="verticalSpacer">
+                                                    <property name="orientation">
+                                                        <enum>Qt::Vertical</enum>
+                                                    </property>
+                                                    <property name="sizeType">
+                                                        <enum>QSizePolicy::Fixed</enum>
+                                                    </property>
+                                                    <property name="sizeHint" stdset="0">
+                                                        <size>
+                                                            <width>20</width>
+                                                            <height>20</height>
+                                                        </size>
+                                                    </property>
+                                                </spacer>
+                                            </item>
+                                        </layout>
+                                    </widget>
+                                    <widget class="QLabel" name="label_calc_rezult">
+                                        <property name="geometry">
+                                            <rect>
+                                                <x>10</x>
+                                                <y>10</y>
+                                                <width>251</width>
+                                                <height>16</height>
+                                            </rect>
+                                        </property>
+                                        <property name="font">
+                                            <font>
+                                                <family>Calibri</family>
+                                                <pointsize>11</pointsize>
+                                                <weight>75</weight>
+                                                <bold>true</bold>
+                                                <kerning>false</kerning>
+                                            </font>
+                                        </property>
+                                        <property name="text">
+                                            <string>Результаты расчета строп:</string>
+                                        </property>
+                                    </widget>
+                                </widget>
+                            </item>
+                        </layout>
+                    </item>
+                    <item>
+                        <widget class="QFrame" name="frame_Img">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>540</width>
+                                    <height>600</height>
+                                </size>
+                            </property>
+                            <property name="autoFillBackground">
+                                <bool>false</bool>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">image: url(&quot;2 branches.png&quot;);</string>
+                            </property>
+                            <property name="frameShape">
+                                <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                                <enum>QFrame::Raised</enum>
+                            </property>
+                            <property name="lineWidth">
+                                <number>0</number>
+                            </property>
+                            <property name="midLineWidth">
+                                <number>0</number>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>850</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>10</pointsize>
+                </font>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">background-color:rgb(172, 172, 172);
+                    selection-background-color: rgb(100, 100, 100);
+                    selection-color: rgb(255, 255, 255);
+                </string>
+            </property>
+            <property name="nativeMenuBar">
+                <bool>true</bool>
+            </property>
+            <widget class="QMenu" name="menu">
+                <property name="font">
+                    <font>
+                        <pointsize>8</pointsize>
+                    </font>
+                </property>
+                <property name="title">
+                    <string>Файл</string>
+                </property>
+                <addaction name="action_OpenProject"/>
+                <addaction name="action_SaveProject"/>
+                <addaction name="separator"/>
+                <addaction name="action_Exit"/>
+            </widget>
+            <widget class="QMenu" name="menu_2">
+                <property name="styleSheet">
+                    <string notr="true"/>
+                </property>
+                <property name="title">
+                    <string>Помощь</string>
+                </property>
+                <addaction name="action_about"/>
+            </widget>
+            <addaction name="menu"/>
+            <addaction name="menu_2"/>
+        </widget>
+        <widget class="QStatusBar" name="statusbar">
+            <property name="font">
+                <font>
+                    <family>Calibri</family>
+                    <pointsize>10</pointsize>
+                </font>
+            </property>
+            <property name="toolTip">
+                <string/>
+            </property>
+            <property name="styleSheet">
+                <string notr="true"/>
+            </property>
+        </widget>
+        <action name="action_SaveProject">
+            <property name="checkable">
+                <bool>false</bool>
+            </property>
+            <property name="text">
+                <string>Сохранить проект</string>
+            </property>
+            <property name="shortcut">
+                <string>Ctrl+S</string>
+            </property>
+        </action>
+        <action name="action_OpenProject">
+            <property name="text">
+                <string>Открыть проект</string>
+            </property>
+            <property name="shortcut">
+                <string>Ctrl+O</string>
+            </property>
+        </action>
+        <action name="action_SaveScreenshot">
+            <property name="text">
+                <string>Сохранить снимок</string>
+            </property>
+        </action>
+        <action name="action_Exit">
+            <property name="text">
+                <string>Выход</string>
+            </property>
+            <property name="shortcut">
+                <string>Ctrl+W</string>
+            </property>
+            <property name="menuRole">
+                <enum>QAction::QuitRole</enum>
+            </property>
+        </action>
+        <action name="action_about">
+            <property name="text">
+                <string>О программе</string>
+            </property>
+            <property name="toolTip">
+                <string>О программе</string>
+            </property>
+            <property name="shortcut">
+                <string>F1</string>
+            </property>
+            <property name="iconVisibleInMenu">
+                <bool>true</bool>
+            </property>
+        </action>
+    </widget>
+    <resources>
+        <include location="images.qrc"/>
+    </resources>
+    <connections>
+        <connection>
+            <sender>action_Exit</sender>
+            <signal>triggered()</signal>
+            <receiver>MainWindow</receiver>
+            <slot>close()</slot>
+            <hints>
+                <hint type="sourcelabel">
+                    <x>-1</x>
+                    <y>-1</y>
+                </hint>
+                <hint type="destinationlabel">
+                    <x>424</x>
+                    <y>324</y>
+                </hint>
+            </hints>
+        </connection>
+    </connections>
+</ui>

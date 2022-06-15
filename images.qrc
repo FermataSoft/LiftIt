@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="img">
+        <file>2.png</file>
+        <file>3 точки 4 ветви.png</file>
+        <file>4 точки 4 ветви.png</file>
+    </qresource>
+</RCC>
